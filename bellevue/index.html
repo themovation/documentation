@@ -53,12 +53,12 @@
                     <li><a href="#metaboxtypes">Types</a></li>                    
                     
                 </ul>
-            <li><a href="#portfolio">04 - Portfolio</a></li>
+            <li><a href="#rooms">04 - Rooms</a></li>
             <ul>
-                <li><a href="#addingprojects">Adding Portfolio Projects</a></li>
-                <li><a href="#creating_portfolio_template">Creating a portfolio page</a></li>
-                <li><a href="#adding_portfolio_metabox">Using the portfolio meta box</a></li>
-                <li><a href="#portfolio_settings">Portfolio settings</a></li>
+                <li><a href="#addingrooms">Adding Rooms</a></li>
+                <li><a href="#creating_rooms_template">Creating a rooms page</a></li>
+                <li><a href="#adding_rooms_metabox">Using the rooms meta box</a></li>
+                <li><a href="#rooms_settings">Rooms settings</a></li>
             </ul>
             <li><a href="#shortcodes">05 - Shortcodes</a></li>
                 <ul>
@@ -149,20 +149,20 @@
             <p class="intro">Included in this theme package are 9 files of sample data that you can import to quickly and easily have your site look very similar to the demo site. Importing these files will add posts, pages, comments, custom fields, navigation menu content, categories, tags, widgets, and forms to your new website.</p>
             <h2>Importing Content</h2>
             <ol class="roman">
-                <li>Locate on of the sample content files <span class="click">{name of demo}-demo-content.xml</span>, in the theme package. It's in a folder called <em>demo content</em>. There is one for <a href="http://demo.themovation.com/landing/entrepreneur/index.html" target="_blank"> each of our demos</a> (7 in total).</li>
+                <li>Locate on of the sample content files <span class="click">{name of demo}-demo-content.xml</span>, in the theme package. It's in a folder called <em>demo content</em>. There is one for <a href="http://demo.themovation.com/landing/bellevue/index.html" target="_blank"> each of our demos</a> (7 in total).</li>
                 <li>From the WordPress dashboard, go to <span class="click">Tools</span> > <span class="click">Import</span> and click WordPress.</li>
                 <li>If you have not installed the Import Plugin yet, you will be prompted to do so.</li>
                 <li>After you activate the plugin, select the file from your theme package and follow the instructions.</li>
             </ol>
             <h2>Importing Widgets</h2>
             <ol class="roman">
-                <li>Locate the sample content file <span class="click">entrepreneur-demo-widget-content.wie</span>, in the theme package. It's in a folder called <em>demo content</em>.</li>
+                <li>Locate the sample content file <span class="click">bellevue-demo-widget-content.wie</span>, in the theme package. It's in a folder called <em>demo content</em>.</li>
                 <li>From the WordPress dashboard, go to <span class="click">Tools</span> > <span class="click">Widget Importer & Exporter</span> and click <span class="click">Choose File</span>, (find import .wie file) then click <span class="click">Import Widgets</span> and follow the instructions.</li>
                 <li>If you have not installed the Widget Importer & Exporter Plugin yet, you will need to do so. You can always go back to the setup process to install it under <span class="click">Appearance</span> > <span class="click">Theme Activation</span>. You can also find <a href="http://wordpress.org/plugins/widget-importer-exporter/" target="_blank">a direct link here</a>.</li>
             </ol> 
             <h2 id="importforms">Importing Forms</h2>
             <ol class="roman">
-                <li>Locate the sample content file <span class="click">entrepreneur-formidable-custom-forms.xml</span>, in the theme package. It's in a folder called <em>demo content</em>.</li>
+                <li>Locate the sample content file <span class="click">bellevue-formidable-custom-forms.xml</span>, in the theme package. It's in a folder called <em>demo content</em>.</li>
                 <li>From the WordPress dashboard, go to <span class="click">Formidable</span> > <span class="click">Import / Export</span> and click <span class="click">Choose File</span>, (find import .xml file) then click <span class="click">Upload file and import</span>.</li>
                 <li>If you have not installed the Widget Importer & Exporter Plugin yet, you will need to do so. You can always go back to the setup process to install it under <span class="click">Appearance</span> > <span class="click">Theme Activation</span>. You can also find <a href="https://wordpress.org/plugins/formidable/" target="_blank">a direct link here</a>.</li>
             </ol>                                     					            
@@ -179,38 +179,43 @@
                <li><strong>General Tab</strong> | Favicon, Logo with Retina Support, Navigation Margin Adjustment, Custom CSS, Google Analytics</li>
                <li><strong>Typography &amp; Fonts</strong> | Body, Menu and Heading sizes, font family and colors. Add any Google Font here.
 
-                   <p id="fonts_physician" class="intro"><strong>Physician</strong><br>
-                        Google Font Name / Font Family : 'Lato', sans-serif<br>
-                        Google Font URL : http://fonts.googleapis.com/css?family=Lato:300,400<br>
+                   <p id="fonts_physician" class="intro"><strong>Rustic / Chalet</strong><br>
+                        Google Font Name / Font Family : 'Josefin Sans', sans-serif<br>
+                        Google Font URL : http://fonts.googleapis.com/css?family=Josefin+Sans:400,600<br>
                         (save changes)<br>
-                        Headings Font > font-family > Lato<br>
-                        Headings Font > font-weight > Normal<br>
+                        Headings Font > font-family > Josefin Sans<br>
+                        Headings Font > font-weight > Bold<br>
                         (save changes)
                    </p>
-                   <p id="fonts_contractor" class="intro"><strong>Contractor</strong><br>
-                       Google Font Name / Font Family : Montserrat<br>
-                       Google Font URL : http://fonts.googleapis.com/css?family=Montserrat<br>
+                   <p id="fonts_contractor" class="intro"><strong>Lakeshore / Cabin</strong><br>
+                       Google Font Name / Font Family : 'Josefin Sans', sans-serif<br>
+                       Google Font URL : http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700<br>
                        (save changes)<br>
-                       Body Font > font-style > Normal<br>
-                       Body Font > font-weight > Normal<br>
-                       Headings Font > font-family > Montserrat<br>
-                       Headings Font > font-weight > Normal<br>
+                       Headings Font > font-family > Josefin Sans<br>
+                       Headings Font > font-weight > Bold<br>
                        (save changes)
                    </p>
                    <p id="fonts_coach"></p>
-                   <p id="fonts_consultant" class="intro"><strong>Consultant, Coach, and Stylist</strong><br>
-                       Google Font Name / Font Family : Raleway<br>
-                       Google Font URL : http://fonts.googleapis.com/css?family=Raleway<br>
+                   <p id="fonts_consultant" class="intro"><strong>Parksville / Countryside</strong><br>
+                       Google Font Name / Font Family : 'Arvo', serif<br>
+                       Google Font URL : http://fonts.googleapis.com/css?family=Arvo:400<br>
                        (save changes)<br>
-                       Headings Font > font-family > Raleway<br>
+                       Headings Font > font-family > Arvo<br>
                        Headings Font > font-weight > Normal<br>
                        (save changes)
                    </p>
-                   <p id="fonts_trainer" class="intro"><strong>Trainer</strong><br>
-                       Google Font Name / Font Family : Montserrat<br>
-                       Google Font URL : http://fonts.googleapis.com/css?family=Montserrat<br>
+                   <p id="fonts_trainer" class="intro"><strong>Long Beach / Beachhouse</strong><br>
+                       Google Font Name / Font Family : 'Raleway', sans-serif<br>
+                       Google Font URL : http://fonts.googleapis.com/css?family=Raleway:400,700,600<br>
                        (save changes)<br>
-                       Headings Font > font-family > Montserrat<br>
+                       Headings Font > font-family > Raleway<br>
+                       (save changes)
+                   </p>
+                   <p id="fonts_trainer" class="intro"><strong>Yaletown / Guesthouse</strong><br>
+                       Google Font Name / Font Family : 'Spinnaker', sans-serif<br>
+                       Google Font URL : http://fonts.googleapis.com/css?family=Spinnaker<br>
+                       (save changes)<br>
+                       Headings Font > font-family > Spinnaker<br>
                        (save changes)
                    </p>
                </li>
@@ -220,7 +225,7 @@
                <li><strong>Footer</strong> | Copyright, Credit, Footer Widgets</li>
                <li><strong>Slider</strong> | Various Slider Options and Settings</li>
                <li><strong>Header & Sidebar</strong> | General Settings for Blog, Search, 404 etc</li>
-                <li><strong>Portfolio</strong> | Portfolio and Project Options (Portfolio Home, Custom Permalink / slug, AddThis, Icons, Navigation Control. </li>
+                <li><strong>Rooms</strong> | Portfolio and Room Options (Portfolio Home, Custom Permalink / slug, AddThis, Icons, Navigation Control. </li>
           	</ol>
             
             <h4 id="retina">Automatic Retina Creation</h4>
@@ -438,15 +443,15 @@
                 	<img class="img-responsive img-meta" src="img/metabox-tour.jpg" />
                 </li>
                 <li>
-                    <strong>Portfolio</strong> - To display a collection of projects on a page.
+                    <strong>Portfolio</strong> - To display a collection of rooms on a page.
                     <img class="img-responsive img-meta" src="img/metabox-portfolio.jpg" />
                 </li>
-                <li>
+                <!--li>
                     <strong>Booked</strong> - To display a Booked Calendar (Requires that you install and activate the Booked Plugin bundled with this theme).
                     <p>For Help Using Booked, please visit the <a href="https://boxystudio.ticksy.com/articles/7827/" target="_blank">Booked Plugin Support Site</a></p>
                     <img class="img-responsive img-meta" src="img/metabox-booked.jpg" />
 
-                </li>
+                </li-->
             </ol>
 
         </li>
@@ -454,61 +459,61 @@
     
 <hr>
 
-<h3 id="portfolio">04 - Portfolio</h3>
-    <p class="intro">Portfolio is a collection of projects. Each project should be organized into a Project Type (or tag). First you add a project and then you display them as part of a portfoio, using the portfolio template or portfolio meta box. Organizing projects into projects types makes it easier for you to add them to a portfolio.</p>
+<h3 id="rooms">04 - Rooms</h3>
+    <p class="intro">Each room should be organized into a Room Type (or tag) but it's not required. First you add a rooms and then you display them as part of a group / collection, using the rooms template or rooms meta box. Organizing roomss into groups or collections makes it easier for you to display.</p>
         <ol class="alpha">
             <li>
-                <h4 id="addingprojects">Adding Portfolio Projects</h4>
-                <p class="intro">Add new projects via <strong>Admin Menu > Portfolio > Add New</strong>.</p>
+                <h4 id="addingrooms">Adding Rooms</h4>
+                <p class="intro">Add new rooms via <strong>Admin Menu > Rooms > Add New</strong>.</p>
                 <ol class="roman">
                     <li>Title</li>
                     <li>Description (content editor / wysiwyg)</li>
-                    <li>Excerpt - If used, this will override what is displayed on the portfolio hover</li>
-                    <li>Featured Image - Displayed on the Project Single and also as the thumbnail on the Portfolio.</li>
-                    <li><strong>Project Options Meta Box</strong></li>
+                    <li>Excerpt - If used, this will override what is displayed on the rooms collection hover</li>
+                    <li>Featured Image - Displayed as the thumbnail on the Rooms collection.</li>
+                    <li><strong>Room Options Meta Box</strong></li>
                     <li>Show button</li>
-                    <li>Show Project Type Icon</li>
+                    <li>Show Room Type Icon</li>
                     <li>Alternative Thunbmail Image</li>
-                    <li>Enable Lightbox on Portfolio</li>
+                    <li>Enable Lightbox on Rooms</li>
                 </ol>
             </li>
             <li>
-                <h4 id="creating_portfolio_template">Creating a Portfolio page</h4>
-                <p class="intro">A great and quick option to display a portfolio on a page.</p>
+                <h4 id="creating_rooms_template">Creating a Rooms page</h4>
+                <p class="intro">A great and quick option to display a collection of rooms on a page.</p>
                     <ol class="roman">
-                        <li>Add a new Page and choose 'Portfolio - Standard' from the Template Dropdown inside the Page Attributes Meta Box.</li>
-                        <li>Configure Settings inside the 'Portfolio Options' meta box.</li>
-                        <li>Show Projects Filter Bar - if you want to allow visitors to sort by project type.</li>
-                        <li>Filter by Project Type - Will display projects that belong to one or more Project Types that you choose.</li>
-                        <li>Projets Per page</li>
+                        <li>Add a new Page and choose 'Rooms - Standard' from the Template Dropdown inside the Page Attributes Meta Box.</li>
+                        <li>Configure Settings inside the 'Rooms Options' meta box.</li>
+                        <li>Show Rooms Filter Bar - if you want to allow visitors to sort by room type.</li>
+                        <li>Filter by Room Type - Will display rooms that belong to one or more Room Types that you choose.</li>
+                        <li>Rooms Per page</li>
                         <li>Number of Columns to Show</li>
                         <li>Order By - Date or Drag and Drop. (<a href="#draganddrop">see how drag and drops works here</a>)</li>
                         <li>Save Changes</li>
                     </ol>
             </li>
             <li>
-                <h4 id="adding_portfolio_metabox">Adding a Portfolio meta box</h4>
-                <p class="intro">A great option if you want to display a few projects in with other content on a page.</p>
+                <h4 id="adding_rooms_metabox">Adding a Rooms meta box</h4>
+                <p class="intro">A great option if you want to display a few rooms in with other content on a page.</p>
                 <ol class="roman">
                     <li>This is part of the <a href="#metaboxbuilder">Meta Box Builder System</a>. Use this link to find out about general meta box settings such as padding, boders etc.</li>
-                    <li>Show Projects Filter Bar - if you want to allow visitors to sort by project type.</li>
-                    <li>Select individually - Choose specific projects you wish to display.</li>
-                    <li>Select by Project Type (Group). - If you have organized your projects in project types, then this option is very handy.</li>
+                    <li>Show Rooms Filter Bar - if you want to allow visitors to sort by room type.</li>
+                    <li>Select individually - Choose specific rooms you wish to display.</li>
+                    <li>Select by Room Type (Group). - If you have organized your rooms in room types, then this option is very handy.</li>
                     <li>Order By - Date or Drag and Drop. (<a href="#draganddrop">see how drag and drops works here</a>)</li>
                     <li>Number of Columns to Show</li>
                     <li>Save Changes</li>
                 </ol>
             </li>
             <li>
-                <h4 id="portfolio_settings">Portfolio General Settings</h4>
-                <p class="intro">Find general settings via <strong>Apperance > Theme Options > Portfolio Tab</strong>.</p>
+                <h4 id="rooms_settings">Rooms General Settings</h4>
+                <p class="intro">Find general settings via <strong>Apperance > Theme Options > Rooms Tab</strong>.</p>
                 <ol class="roman">
-                    <li>Portfolio Home - Each Project Pae and a home button. This setting allows you to specify where that buttons goes.</li>
-                    <li>Anchor Link - If you would like to anchor down using the portfolio home linke above, specicy your anchor here.</li>
-                    <li>Custom Slug - Set your custom permalink / slug here. Default is 'portfolio'</li>
+                    <li>Rooms Home - Each Room Pae and a home button. This setting allows you to specify where that buttons goes.</li>
+                    <li>Anchor Link - If you would like to anchor down using the rooms home linke above, specicy your anchor here.</li>
+                    <li>Custom Slug - Set your custom permalink / slug here. Default is 'rooms'</li>
                     <li>AddThis Enable</li>
-                    <li>Project Icons - Disable the icon from displaying on hover (portfolio page and meta box)</li>
-                    <li>Navigation Control - Disable project prev / next buttons. </li>
+                    <li>Room Icons - Disable the icon from displaying on hover (rooms page and meta box)</li>
+                    <li>Navigation Control - Disable room prev / next buttons. </li>
                 </ol>
             </li>
         </ol>
@@ -652,7 +657,7 @@
           <h4 id="creatingChildTheme">Creating a Child Theme</h4>
             <ol class="roman">
                 <li>Go to <span class="click">Appearance</span> > <span class="click">Themes</span> > and click on '<em>Activate</em>' under Bellevue Child Theme.</li>
-                <li>Now you can add and fully customize your own PHP, CSS, JS, and other files you add under the themes/entrepreneur-child/ folder.</li>
+                <li>Now you can add and fully customize your own PHP, CSS, JS, and other files you add under the themes/bellevue-child/ folder.</li>
                 <li>To learn more about using a Child Theme please visit the <a href="http://codex.wordpress.org/Child_Themes">WordPress.org Codex site.</a></li>
             </ol>
         </li>
@@ -666,13 +671,13 @@
           <h4 id="poedit">Language Translation using Poedit (Free) by creating a .po file</h4>
             <ol class="roman">
                 <li>Download and install <a href="http://poedit.net/" target="_blank" >Poedit</a> if you haven't done so already.</li>
-                <li>Find Bellevue.pot file under Bellevue theme folder /lang (e.g. /wp-content/themes/entrepreneur/lang/entrepreneur.pot)</li>
+                <li>Find Bellevue.pot file under Bellevue theme folder /lang (e.g. /wp-content/themes/bellevue/lang/bellevue.pot)</li>
                 <li>Open the .pot file in Poedit.</li>
                 <li><a href="img/800px-po_edit_windows.jpg" target="_blank" style="float:right; margin-left:20px"><img src="img/800px-po_edit_windows.jpg" width="202" height="146"></a><em>(See Image on the right)</em> The box labeled (1) is the original message  (in English) from the .pot file. The box labeled (2) is where you add  your translation. Boxes labeled (3) and (4) are used for adding comments  about the messages. These come in handy if you are working with a team  of translators and would like to pass around ideas through the .po file.</li>
-                <li>Go to <strong>File / Save as...</strong> to save your translations in a .po file. If you do not know how to name it, take a look at  this page: <a href="http://make.wordpress.org/polyglots/handbook/tools/poedit/" target="_blank">Translating WordPress With Poedit</a>. The  name you should use is the combination of the project&#8217;s text domain (locate it inside codes) and a short string in parentheses next to a  language&#8217;s name (e.g. French &#8211; Français (<strong>fr_FR</strong>)). For example, if the text domain is entrepreneur and the translation is French, just name the .po file <code parse="no">entrepreneur-fr_FR</code>.</li>
+                <li>Go to <strong>File / Save as...</strong> to save your translations in a .po file. If you do not know how to name it, take a look at  this page: <a href="http://make.wordpress.org/polyglots/handbook/tools/poedit/" target="_blank">Translating WordPress With Poedit</a>. The  name you should use is the combination of the room&#8217;s text domain (locate it inside codes) and a short string in parentheses next to a  language&#8217;s name (e.g. French &#8211; Français (<strong>fr_FR</strong>)). For example, if the text domain is bellevue and the translation is French, just name the .po file <code parse="no">bellevue-fr_FR</code>.</li>
                 <li>When you have finished translating, go to <strong>File → Save as…</strong> again to generate the .mo file. Or you can set your Poedit to always compile a .mo file when saving changes by clicking <strong>File / Preferences</strong> and on the <strong>Editor tab</strong> check the <em>Automatically compile .mo file on save</em> box.</li>
                 <li>Open your wp-config.php file in a text editor and search for: define ('WPLANG', '');</li>
-                <li>Edit this line according to the .mo file you've just created, e.g. define ('WPLANG', 'entrepreneur-fr_FR');</li>
+                <li>Edit this line according to the .mo file you've just created, e.g. define ('WPLANG', 'bellevue-fr_FR');</li>
                 <li>Ref: <a href="http://codex.wordpress.org/Installing_WordPress_in_Your_Language" target="_blank">Translating WordPress With Poedit</a></li>
             </ol>
         </li>
