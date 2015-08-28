@@ -454,6 +454,29 @@
                 <li>
                     <strong>WP Booking System</strong> - Ideal for adding the WP Booking System Calendar to your pages.
                     <img class="img-responsive img-meta" src="img/metabox-wp-booking-system.png" />
+                    <ul><lli>
+                        <p>Use the metabox to add a new calendar to your page. I'll need a shortcode to display the calendar. You can generate your shortcode usint the short code generator in the content area and then copy and paste it back in to the calendar metabox. </p>
+                        <p>Here are some examples:</p>
+                        <ul>
+                            <li>
+                                <p><strong>Display just the availability calendar (no form)</strong><br>
+                                    <code>[wpbs id="1" form="no-form" title="no"  legend="yes"  start="1"  display="1" language="auto" history="1" tooltip="1" month="0" year="0" selection="multiple" autopending="no"  weeknumbers="no"]</code>
+                                </p>
+                            </li>
+                            <li>
+                                <p><strong>Display the availability calendar and reservation form</strong><br>
+                                    <code>[wpbs id="1" form="1" title="no"  legend="yes"  start="1"  display="3" language="auto" history="1" tooltip="1" month="0" year="0" selection="multiple" autopending="yes"  weeknumbers="no"]</code>
+                                </p>
+                            </li>
+                            <li>
+                                <p><strong>Support for WooCommerce</strong><br>
+                                    Add in a <code>wooproductid="458v"</code> in to the shortcode where the number if the product ID for this calendar.<br>
+                                    <code>[wpbs id="1" form="1" title="no"  legend="yes"  start="1"  display="3" language="auto" history="1" tooltip="1" month="0" year="0" selection="multiple" autopending="yes"  weeknumbers="no" wooproductid="458"]</code>
+                                </p>
+                            </li>
+                        </ul>
+
+                    </lli></ul>
                 </li>
 
                 <!--li>
